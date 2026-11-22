@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int func2(int a, int b);
-
 int main(void)
 {
     int n;
@@ -14,6 +13,7 @@ int main(void)
 
 int func2(int a, int b)
 {
-    /* TODO: a から b を引いた値を返す */
-    return 0;
+    int r;/* TODO: a から b を引いた値を返す */
+    r=a-b;
+    return r;
 }
